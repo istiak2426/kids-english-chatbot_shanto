@@ -1,0 +1,21 @@
+<svg viewBox="0 0 760 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial,sans-serif" font-size="13">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+<rect width="760" height="330" fill="#fff"/>
+<g stroke="#555" fill="#fff8ec" stroke-width="1.5">
+<rect x="20" y="130" width="130" height="70" rx="10"/><rect x="200" y="130" width="140" height="70" rx="10"/>
+<rect x="390" y="30" width="150" height="60" rx="10"/><rect x="390" y="110" width="150" height="60" rx="10"/>
+<rect x="390" y="190" width="150" height="60" rx="10"/><rect x="590" y="130" width="150" height="70" rx="10" fill="#e8f6ee"/>
+<rect x="390" y="270" width="150" height="45" rx="10" fill="#eef2ff"/></g>
+<g text-anchor="middle" fill="#222">
+<text x="85" y="160">Child (browser)</text><text x="85" y="180" font-size="11">Web UI + mic + TTS</text>
+<text x="270" y="160">FastAPI /chat</text><text x="270" y="180" font-size="11">Orchestrator</text>
+<text x="465" y="55">Mode &amp; Emotion</text><text x="465" y="73" font-size="11">rules, ~0 ms</text>
+<text x="465" y="135">Curriculum L1-L3</text><text x="465" y="153" font-size="11">mastery, level-up</text>
+<text x="465" y="215">Prompt Builder</text><text x="465" y="233" font-size="11">mode + SEL directive</text>
+<text x="665" y="160">Groq LLM</text><text x="665" y="180" font-size="11">llama-3.1-8b-instant</text>
+<text x="465" y="290">SQLite child state</text></g>
+<g stroke="#555" stroke-width="1.5" marker-end="url(#a)" fill="none">
+<path d="M150 165 H200"/><path d="M340 150 L390 60"/><path d="M340 165 H390"/><path d="M340 180 L390 220"/>
+<path d="M540 220 L590 185"/><path d="M340 190 L400 280"/></g>
+<text x="380" y="322" text-anchor="middle" font-size="11" fill="#555">LLM timeout 1.3 s → template fallback keeps total response &lt; 2 s</text>
+</svg>
